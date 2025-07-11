@@ -1,0 +1,2 @@
+[01-Oct-2023 15:24:35 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/prestamosorbe/public_html/modelos/clientes.modelo.php on line 278
+[01-Oct-2023 15:26:05 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/prestamosorbe/public_html/modelos/clientes.modelo.php on line 278

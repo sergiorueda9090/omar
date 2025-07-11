@@ -1,0 +1,663 @@
+[27-Feb-2023 11:18:38 America/Bogota] PHP Warning:  A non-numeric value encountered in /home1/sernetel/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[27-Feb-2023 11:18:38 America/Bogota] PHP Warning:  A non-numeric value encountered in /home1/sernetel/public_html/controladores/tarjetaCliente.controlador.php on line 148
+[27-Feb-2023 11:18:38 America/Bogota] PHP Warning:  A non-numeric value encountered in /home1/sernetel/public_html/controladores/tarjetaCliente.controlador.php on line 156
+[10-Mar-2023 11:30:00 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home1/sernetel/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home1/sernetel/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'sernetel', '1917alejandraMa...')
+#1 /home1/sernetel/public_html/modelos/inicio.modelo.php(76): Conexion::conectar()
+#2 /home1/sernetel/public_html/controladores/inicio.controlador.php(20): InicioModel::mdlInicioDatosCobros()
+#3 /home1/sernetel/public_html/vistas/modulos/inicio/cajas-superiores.php(4): InicioControlador::ctrInicioDatosCobros()
+#4 /home1/sernetel/public_html/vistas/modulos/inicio.php(31): include('/home1/sernetel...')
+#5 /home1/sernetel/public_html/vistas/plantilla.php(159): include('/home1/sernetel...')
+#6 /home1/sernetel/public_html/controladores/plantilla.controlador.php(7): include('/home1/sernetel...')
+#7 /home1/sernetel/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#8 {main}
+  thrown in /home1/sernetel/public_html/modelos/conexion.php on line 9
+[10-Mar-2023 11:30:07 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home1/sernetel/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home1/sernetel/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'sernetel', '1917alejandraMa...')
+#1 /home1/sernetel/public_html/modelos/inicio.modelo.php(8): Conexion::conectar()
+#2 /home1/sernetel/public_html/controladores/inicio.controlador.php(7): InicioModel::mdlInicioDatos()
+#3 /home1/sernetel/public_html/vistas/modulos/inicio/cajas-superiores.php(3): InicioControlador::ctrInicioDatos()
+#4 /home1/sernetel/public_html/vistas/modulos/inicio.php(31): include('/home1/sernetel...')
+#5 /home1/sernetel/public_html/vistas/plantilla.php(159): include('/home1/sernetel...')
+#6 /home1/sernetel/public_html/controladores/plantilla.controlador.php(7): include('/home1/sernetel...')
+#7 /home1/sernetel/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#8 {main}
+  thrown in /home1/sernetel/public_html/modelos/conexion.php on line 9
+[10-Mar-2023 11:31:17 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home1/sernetel/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home1/sernetel/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'sernetel', '1917alejandraMa...')
+#1 /home1/sernetel/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home1/sernetel/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home1/sernetel/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home1/sernetel/public_html/vistas/plantilla.php(159): include('/home1/sernetel...')
+#5 /home1/sernetel/public_html/controladores/plantilla.controlador.php(7): include('/home1/sernetel...')
+#6 /home1/sernetel/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home1/sernetel/public_html/modelos/conexion.php on line 9
+[10-Mar-2023 11:32:28 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home1/sernetel/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home1/sernetel/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'sernetel', '1917alejandraMa...')
+#1 /home1/sernetel/public_html/modelos/inicio.modelo.php(76): Conexion::conectar()
+#2 /home1/sernetel/public_html/controladores/inicio.controlador.php(20): InicioModel::mdlInicioDatosCobros()
+#3 /home1/sernetel/public_html/vistas/modulos/inicio/cajas-superiores.php(4): InicioControlador::ctrInicioDatosCobros()
+#4 /home1/sernetel/public_html/vistas/modulos/inicio.php(31): include('/home1/sernetel...')
+#5 /home1/sernetel/public_html/vistas/plantilla.php(159): include('/home1/sernetel...')
+#6 /home1/sernetel/public_html/controladores/plantilla.controlador.php(7): include('/home1/sernetel...')
+#7 /home1/sernetel/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#8 {main}
+  thrown in /home1/sernetel/public_html/modelos/conexion.php on line 9
+[10-Mar-2023 11:32:45 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home1/sernetel/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home1/sernetel/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'sernetel', '1917alejandraMa...')
+#1 /home1/sernetel/public_html/modelos/inicio.modelo.php(8): Conexion::conectar()
+#2 /home1/sernetel/public_html/controladores/inicio.controlador.php(7): InicioModel::mdlInicioDatos()
+#3 /home1/sernetel/public_html/vistas/modulos/inicio/cajas-superiores.php(3): InicioControlador::ctrInicioDatos()
+#4 /home1/sernetel/public_html/vistas/modulos/inicio.php(31): include('/home1/sernetel...')
+#5 /home1/sernetel/public_html/vistas/plantilla.php(159): include('/home1/sernetel...')
+#6 /home1/sernetel/public_html/controladores/plantilla.controlador.php(7): include('/home1/sernetel...')
+#7 /home1/sernetel/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#8 {main}
+  thrown in /home1/sernetel/public_html/modelos/conexion.php on line 9
+[10-Mar-2023 11:36:12 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home1/sernetel/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home1/sernetel/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'sernetel', '1917alejandraMa...')
+#1 /home1/sernetel/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home1/sernetel/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home1/sernetel/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home1/sernetel/public_html/vistas/plantilla.php(159): include('/home1/sernetel...')
+#5 /home1/sernetel/public_html/controladores/plantilla.controlador.php(7): include('/home1/sernetel...')
+#6 /home1/sernetel/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home1/sernetel/public_html/modelos/conexion.php on line 9
+[20-May-2023 23:18:28 America/Bogota] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/sernetel/public_html/controladores/usuarios.controlador.php on line 104
+[12-Jun-2023 09:13:39 America/Bogota] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/sernetel/public_html/controladores/usuarios.controlador.php on line 104
+[15-Aug-2023 22:21:23 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[15-Aug-2023 22:21:23 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 44
+[15-Aug-2023 22:21:23 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:378
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(52): ModeloTarjetaCliente::mdlActualizarCuota(false)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(425): TarjetaCliente::ctrAgregarPagoTarjetaCliente()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 378
+[15-Aug-2023 22:21:47 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[15-Aug-2023 22:21:47 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 44
+[15-Aug-2023 22:21:47 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:378
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(52): ModeloTarjetaCliente::mdlActualizarCuota(false)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(425): TarjetaCliente::ctrAgregarPagoTarjetaCliente()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 378
+[15-Aug-2023 22:22:21 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[15-Aug-2023 22:22:21 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 44
+[15-Aug-2023 22:22:21 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:378
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(52): ModeloTarjetaCliente::mdlActualizarCuota(false)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(425): TarjetaCliente::ctrAgregarPagoTarjetaCliente()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 378
+[01-Sep-2023 11:22:59 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[01-Sep-2023 11:22:59 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 44
+[01-Sep-2023 11:22:59 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:378
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(52): ModeloTarjetaCliente::mdlActualizarCuota(false)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(425): TarjetaCliente::ctrAgregarPagoTarjetaCliente()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 378
+[01-Sep-2023 11:23:20 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[01-Sep-2023 11:23:20 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 44
+[01-Sep-2023 11:23:20 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:378
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(52): ModeloTarjetaCliente::mdlActualizarCuota(false)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(425): TarjetaCliente::ctrAgregarPagoTarjetaCliente()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 378
+[19-Jan-2024 14:52:36 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[19-Jan-2024 14:52:36 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 148
+[19-Jan-2024 14:52:36 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 156
+[01-Mar-2024 16:50:03 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/usuarios.controlador.php(23): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'Houston')
+#3 /home/prestamosorbe/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(183): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:50:07 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/usuarios.controlador.php(23): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'Houston')
+#3 /home/prestamosorbe/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(183): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:52:53 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php(226): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(298): ModeloTarjetaCliente::mdlMostrarTarjetaCliente('id', '1104')
+#3 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(10): TarjetaCliente::ctrMostrarTarjetaCliente()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:52:58 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home/prestamosorbe/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:53:02 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home/prestamosorbe/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:53:05 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php(226): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(298): ModeloTarjetaCliente::mdlMostrarTarjetaCliente('id', '1104')
+#3 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(10): TarjetaCliente::ctrMostrarTarjetaCliente()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:53:15 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home/prestamosorbe/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:53:30 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home/prestamosorbe/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:53:56 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/usuarios.controlador.php(23): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'Houston')
+#3 /home/prestamosorbe/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(183): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[01-Mar-2024 16:54:03 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/usuarios.controlador.php(23): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'Houston')
+#3 /home/prestamosorbe/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(183): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[18-Mar-2024 15:48:52 America/Bogota] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ';' or ',' in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 455
+[18-Mar-2024 15:48:55 America/Bogota] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ';' or ',' in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 455
+[26-Jun-2024 13:07:28 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[26-Jun-2024 13:07:28 America/Bogota] PHP Warning:  Division by zero in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 44
+[26-Jun-2024 13:07:28 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:401
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(52): ModeloTarjetaCliente::mdlActualizarCuota(false)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(542): TarjetaCliente::ctrAgregarPagoTarjetaCliente()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 401
+[01-Jul-2024 09:11:16 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:11:54 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:12:17 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:16:26 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:16:29 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:17:09 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:17:22 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:17:24 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:18:03 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:18:08 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:18:09 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:18:31 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:18:40 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:18:50 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[01-Jul-2024 09:18:50 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 148
+[01-Jul-2024 09:18:50 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 156
+[01-Jul-2024 09:18:50 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:18:52 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:19:04 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:19:25 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:19:28 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[01-Jul-2024 09:19:33 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function ctrActualizarProximaFechaPagarMonto() on null in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php:551
+Stack trace:
+#0 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include()
+#1 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#2 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php on line 551
+[16-Sep-2024 21:37:21 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:333
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(386): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(551): TarjetaCliente::ctrActualizarProximaFechaPagarMonto()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 333
+[16-Sep-2024 21:38:16 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:333
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 333
+[16-Sep-2024 21:38:44 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:333
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 333
+[16-Sep-2024 21:39:08 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:333
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 333
+[16-Sep-2024 21:40:05 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:333
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 333
+[16-Sep-2024 21:40:35 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:333
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 333
+[16-Sep-2024 21:47:38 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(386): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(551): TarjetaCliente::ctrActualizarProximaFechaPagarMonto()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:48:59 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(386): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(551): TarjetaCliente::ctrActualizarProximaFechaPagarMonto()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:49:07 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:49:25 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:49:34 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:49:39 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(750): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:54:38 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:54:57 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:56:08 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:56:26 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(336): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 21:58:46 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:356
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(337): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 356
+[16-Sep-2024 22:02:48 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:357
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(337): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 357
+[16-Sep-2024 22:02:51 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:357
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(337): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 357
+[16-Sep-2024 22:02:59 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:357
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(337): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 357
+[16-Sep-2024 22:03:30 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::close() in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php:357
+Stack trace:
+#0 /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php(337): ModeloTarjetaCliente::mdlActualizarProximaFecha(Array)
+#1 /home/prestamosorbe/public_html/vistas/modulos/tarjetaCliente.php(751): TarjetaCliente::ctrActualizarProximaFecha()
+#2 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#3 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#4 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#5 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/tarjetaCliente.modelo.php on line 357
+[25-Sep-2024 15:54:37 UTC] PHP Parse error:  syntax error, unexpected '$respuesta' (T_VARIABLE) in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 337
+[17-Oct-2024 10:03:28 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/usuarios.controlador.php(23): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'Houston')
+#3 /home/prestamosorbe/public_html/vistas/modulos/login.php(44): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(183): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[22-Nov-2024 17:25:41 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/cobrosDelDia.modelo.php(8): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/cobrosDelDia.controlador.php(8): ModeloCobrosDelDia::mdlMostrarCobrosDelDia('2024-11-22', '2000-01-01')
+#3 /home/prestamosorbe/public_html/vistas/modulos/cobroDelDia.php(60): ControladorCobrosDelDia::crtMostrarCobrosDelDia()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[22-Nov-2024 17:25:49 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/cobrosDelDia.modelo.php(8): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/cobrosDelDia.controlador.php(8): ModeloCobrosDelDia::mdlMostrarCobrosDelDia('2024-11-22', '2000-01-01')
+#3 /home/prestamosorbe/public_html/vistas/modulos/cobroDelDia.php(60): ControladorCobrosDelDia::crtMostrarCobrosDelDia()
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[22-Nov-2024 17:26:39 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home/prestamosorbe/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[22-Nov-2024 17:26:45 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home/prestamosorbe/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[22-Nov-2024 17:26:54 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/inicio.modelo.php(8): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/inicio.controlador.php(7): InicioModel::mdlInicioDatos()
+#3 /home/prestamosorbe/public_html/vistas/modulos/inicio/cajas-superiores.php(3): InicioControlador::ctrInicioDatos()
+#4 /home/prestamosorbe/public_html/vistas/modulos/inicio.php(31): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#7 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#8 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[22-Nov-2024 17:27:05 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/prestamosorbe/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/prestamosorbe/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'prestamosorbe', 'Tn)p^]+t~4sA')
+#1 /home/prestamosorbe/public_html/modelos/clientes.modelo.php(90): Conexion::conectar()
+#2 /home/prestamosorbe/public_html/controladores/clientes.controlador.php(111): ModeloClientes::mdlMostrarClientes('clientes', NULL, NULL, 'ACTIVO')
+#3 /home/prestamosorbe/public_html/vistas/modulos/clientes.php(84): ControladorClientes::ctrMostrarClientes(NULL, NULL, 'ACTIVO')
+#4 /home/prestamosorbe/public_html/vistas/plantilla.php(159): include('/home/prestamos...')
+#5 /home/prestamosorbe/public_html/controladores/plantilla.controlador.php(7): include('/home/prestamos...')
+#6 /home/prestamosorbe/public_html/index.php(33): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/prestamosorbe/public_html/modelos/conexion.php on line 9
+[05-May-2025 08:23:57 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 18
+[05-May-2025 08:23:58 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 148
+[05-May-2025 08:23:58 America/Bogota] PHP Warning:  A non-numeric value encountered in /home/prestamosorbe/public_html/controladores/tarjetaCliente.controlador.php on line 156

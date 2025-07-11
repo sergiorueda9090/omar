@@ -1,0 +1,6 @@
+[13-Nov-2024 18:19:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControladorClientes::ctrMostrarClientes(), 2 passed in /home/prestamosorbe/public_html/extensiones/tcpdf/pdf/factura.php on line 39 and exactly 3 expected in /home/prestamosorbe/public_html/controladores/clientes.controlador.php:107
+Stack trace:
+#0 /home/prestamosorbe/public_html/extensiones/tcpdf/pdf/factura.php(39): ControladorClientes::ctrMostrarClientes('id', NULL)
+#1 /home/prestamosorbe/public_html/extensiones/tcpdf/pdf/factura.php(303): imprimirFactura->traerImpresionFactura()
+#2 {main}
+  thrown in /home/prestamosorbe/public_html/controladores/clientes.controlador.php on line 107

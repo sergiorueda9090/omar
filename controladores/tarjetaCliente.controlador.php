@@ -74,7 +74,7 @@ class TarjetaCliente{
                       }).then(function(result){
                           if (result.value) {
 
-                          window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                          window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                           }
                         })
@@ -91,7 +91,7 @@ class TarjetaCliente{
                       }).then(function(result){
                           if (result.value) {
 
-                          window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                          window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                           }
                         })
@@ -111,7 +111,7 @@ class TarjetaCliente{
                   }).then(function(result){
                       if (result.value) {
 
-                      window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                      window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                       }
                     })
@@ -257,7 +257,7 @@ class TarjetaCliente{
            }).then(function(result){
                if (result.value) {
 
-               window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+               window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                }
              })
@@ -275,7 +275,7 @@ class TarjetaCliente{
            }).then(function(result){
                if (result.value) {
 
-               window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+               window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                }
              })
@@ -348,7 +348,7 @@ class TarjetaCliente{
              }).then(function(result){
                  if (result.value) {
 
-                   window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                   window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                  }
                })
@@ -365,7 +365,7 @@ class TarjetaCliente{
              }).then(function(result){
                  if (result.value) {
 
-                   window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                   window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                  }
                })
@@ -417,7 +417,7 @@ class TarjetaCliente{
              }).then(function(result){
                  if (result.value) {
 
-                   window.location = "https://prestamosorbe.com/cobroDelDia";
+                   window.location = "http://34.206.219.127/cobroDelDia";
 
                  }
                })
@@ -434,7 +434,7 @@ class TarjetaCliente{
              }).then(function(result){
                  if (result.value) {
 
-                   window.location = "https://prestamosorbe.com/cobroDelDia";
+                   window.location = "http://34.206.219.127/cobroDelDia";
 
                  }
                })
@@ -532,7 +532,7 @@ class TarjetaCliente{
                 }).then(function(result){
                     if (result.value) {
 
-                      window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                      window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                     }
                   })
@@ -549,7 +549,7 @@ class TarjetaCliente{
                 }).then(function(result){
                     if (result.value) {
 
-                      window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                      window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                     }
                   })
@@ -569,7 +569,7 @@ class TarjetaCliente{
               }).then(function(result){
                   if (result.value) {
 
-                  window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                  window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                   }
                 })
@@ -626,7 +626,7 @@ class TarjetaCliente{
               }).then(function(result){
                   if (result.value) {
 
-                    window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                    window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                   }
                 })
@@ -643,7 +643,7 @@ class TarjetaCliente{
               }).then(function(result){
                   if (result.value) {
 
-                    window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                    window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                   }
                 })
@@ -695,7 +695,7 @@ class TarjetaCliente{
               }).then(function(result){
                   if (result.value) {
 
-                    window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                    window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                   }
                 })
@@ -715,7 +715,7 @@ class TarjetaCliente{
               }).then(function(result){
                   if (result.value) {
 
-                  window.location = "https://prestamosorbe.com/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
+                  window.location = "http://34.206.219.127/index.php?ruta=tarjetaCliente&id='.$idCliente.'";
 
                   }
                 })

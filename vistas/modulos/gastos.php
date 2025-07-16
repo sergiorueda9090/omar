@@ -591,7 +591,7 @@ $(document).on('click','.btnCancelar',function(){
     $(".fechaInicial").val(ano + "-" + mes + "-" + manana.getDate());
     $(".fechaFinal").val(ano + "-" + mes + "-" + pasado.getDate());
 
-    window.location = "http://34.206.219.127/gastos";
+    window.location = "https://omarruedaorbe.com/gastos";
 
 })
 
